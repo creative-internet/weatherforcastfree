@@ -5,6 +5,9 @@
   
 }
 
+body.green .header {
+  background-image: url(../images/green/background.png);
+}
 .header > .container {
   position: relative;
   min-height: 500px;
@@ -57,6 +60,10 @@
   background-color: #0080ff; 
 }
 
+.green .searchbox button.btn {
+  background-color: #2C9602;
+}
+
 .searchbox button.btn img {
   width: 27px;
   margin-left: 8px;
@@ -72,6 +79,11 @@
 section.steps {
   background-color: #EBEBEB;
 }
+
+body.green section.steps h5 {
+  color: #2C9602;
+}
+
 section.steps h5 {
   color: #0066CC;
   text-transform: capitalize;
@@ -86,9 +98,11 @@ section.steps > .container > hr {
   position: relative;
   top: 77px;
   border-color: #0066CC;
-  border-width: 3px;
-  
-  
+  border-width: 3px;  
+}
+
+body.green section.steps > .container > hr {
+ border-color: #2C9602; 
 }
 section.steps > .container > .row > div > div {
   z-index: 10;
@@ -100,6 +114,10 @@ section.steps > .container > .row > div > div {
   border-radius: 30px;
   position: relative;
   margin-bottom: 10px;
+}
+
+body.green section.steps > .container > .row > div > div {
+  background-color: #2C9602; 
 }
 
 section.steps > .container > .row > div > div > img { 
@@ -175,6 +193,13 @@ footer a {
   background-color: #0080ff; 
 }
 
+body.green .blue-button {
+  background-color: #2C9602;
+}
+
+body.green .blue-button:hover {
+  background-color: #1f6d00;
+}
 .blue-button > .caret {
   border: 2px solid white;
   width: 18px;
