@@ -48,7 +48,7 @@
 }
 
 .searchbox .chromeStore {
-  
+  width: 180px;
 }
 
 .searchbox button.btn:hover {
@@ -136,7 +136,14 @@ section.benefits div.image {
 }
 
 section.benefits .row > div:not(.image) {
-  margin-top: 15px;
+  margin-top: 25px;
+  padding: 0 40px;
+}
+
+@media (min-width: 768px) {
+  section.benefits .row > div:nth-of-type(3) .blue-button .caret > i {
+    left: -1px !important;
+  }
   
 }
 
